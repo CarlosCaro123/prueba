@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "785d5fea-953e-43e5-aed2-c42dfe6afc1a",
+		"name": "MySuplementation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get-users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://3000-ae6c81e8-c87b-45d7-ba64-61de7ef4a720.ws-us0.gitpod.io/productos",
+					"protocol": "https",
+					"host": [
+						"3000-ae6c81e8-c87b-45d7-ba64-61de7ef4a720",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"productos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-productos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://3000-ae6c81e8-c87b-45d7-ba64-61de7ef4a720.ws-us0.gitpod.io/posts",
+					"protocol": "https",
+					"host": [
+						"3000-ae6c81e8-c87b-45d7-ba64-61de7ef4a720",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://3000-ae6c81e8-c87b-45d7-ba64-61de7ef4a720.ws-us0.gitpod.io/posts",
+					"protocol": "https",
+					"host": [
+						"3000-ae6c81e8-c87b-45d7-ba64-61de7ef4a720",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-post-id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://3000-ae6c81e8-c87b-45d7-ba64-61de7ef4a720.ws-us0.gitpod.io/posts/5d487e101c9d440000f375c6",
+					"protocol": "https",
+					"host": [
+						"3000-ae6c81e8-c87b-45d7-ba64-61de7ef4a720",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"posts",
+						"5d487e101c9d440000f375c6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
